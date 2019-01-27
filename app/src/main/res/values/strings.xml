@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ShortVdHelper</string>
+    <string name="dir_size">%d 个文件夹, 共 %s ,计算耗时 %d ms</string>
+    <string name="delete_count">共删除 %d 个文件夹,耗时 %d ms</string>
+    <string name="no_empty_dir">没有空文件夹要删除</string>
+    <string name="cal_dir">计算文件夹(shortVideo)</string>
+    <string name="del_empty_dir">删除空文件夹</string>
+    <string name="del_more_file">删除多余文件</string>
+    <string name="copy2pdir">复制文件到父文件夹</string>
+    <string name="del_file">共删除文件 %d 个,共 %s ,耗时 %d ms</string>
+    <string name="no_more_file_to_delete">没有多余文件要删除</string>
+    <string name="sd_size">%s / %s</string>
+    <string name="tip">提示</string>
+    <string name="move_tip">在移动文件之前请先删除多余的文件\n确认已经上传了多余文件吗?</string>
+    <string name="move_file">共移动文件 %d 个,%d 个未移动,共 %s ,耗时 %d ms</string>
+    <string name="no_file_to_move">没有问件需要移动</string>
+    <string name="moving">操作正在进行</string>
+</resources>

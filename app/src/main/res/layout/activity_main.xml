@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:id="@+id/sd_progress"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:progress="80"
+        android:progressBackgroundTint="@color/colorPrimary"
+        android:progressTint="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/tv_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        tools:text=" 16GB / 64GB"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="calculateDir"
+        android:text="@string/cal_dir"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/tv_dir_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:text="467 个文件夹 共 6.3GB"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="deleteEmptyDir"
+        android:text="@string/del_empty_dir"/>
+
+    <TextView
+        android:id="@+id/tv_del_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:text="本次共删除5个空文件夹"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="deleteMore"
+        android:text="@string/del_more_file"/>
+
+    <TextView
+        android:id="@+id/tv_del_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:text="删除文件 5个 ,共 86 MB"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="copy2Parent"
+        android:text="@string/copy2pdir"/>
+
+    <TextView
+        android:id="@+id/tv_copy_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        tools:text="共复制45个,共 456 MB"/>
+
+</LinearLayout>
